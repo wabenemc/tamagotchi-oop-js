@@ -133,6 +133,18 @@ Hint: use [setInterval](http://www.w3schools.com/jsref/met_win_setinterval.asp)
 
 Make some new Tamagotchis and try running multiple of them, and turning them on and off.
 
+
+### Part 6: Tamagotchi life and death
+
+We want to add a bit of challenge in our Tamagotchi's life, and check whether the Tamagochi is still alive or not.
+
+* Every time `foodInTummy` or `restedness` decrease, reduce `health` by 1.
+* Add a method called `isAlive` to check if the Tamagotchi is still alive, meaning his `health` is > 0.
+* If the Tamagochi is dead, console.log the values "Oh no! [Tamagotchi's name] is dead!".
+* Call this method each time there is a change in `foodInTummy` or `restedness`.
+
+:dart: Git add, git commit -m "part 6 added life and death of a Tamagotchi"
+
 ### Reach Goals
 
 We want it so that our player can just click buttons on the page rather than type in the commands to feed the Tamagotchi, etc.
